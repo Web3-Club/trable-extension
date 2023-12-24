@@ -1,0 +1,24 @@
+body {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#trable-image-container {
+  height: 200px; /* Adjust slightly to ensure full image visibility */
+  width: 400px; /* Adjust slightly to maintain aspect ratio */
+  margin: 0 auto; /* Center horizontally */
+  overflow: hidden; /* Clip overflowing parts of the image */
+}
+
+#trable-image {
+  object-fit: cover; /* Ensure full image display within container */
+}
+
+#trable-button {
+  padding: 10px 20px;
+  border: 5px solid #ccc;
+  background-color: #eee;
+  cursor: pointer;
+  width: 80%;
+}
